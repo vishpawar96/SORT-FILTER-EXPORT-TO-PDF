@@ -39,6 +39,8 @@ public class HomeController {
 	// this method is useful when there is no web.xml file
 	public String prelogin() {
 
+		System.out.println("Hello folks----------------");
+
 		System.out.println("this is my Prelogin Method");
 		return "login";
 	}
